@@ -13,12 +13,13 @@ export default function HomeScreen() {
         <Image
           source={require("@/assets/images/partial-react-logo.png")}
           style={styles.reactLogo}
-          native
         />
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">WWelcome to the world of react</ThemedText>
+        <ThemedText type="title">
+          WWelcome to the world of react native
+        </ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
