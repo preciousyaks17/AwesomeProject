@@ -40,10 +40,7 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Awesome Project</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this
-          starter app.
-        </ThemedText>
+        <ThemedText>Tap the Explore tab to learn more....</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
@@ -53,7 +50,7 @@ export default function HomeScreen() {
           to get a fresh <ThemedText type="defaultSemiBold">app</ThemedText>{" "}
           directory. This will move the current{" "}
           <ThemedText type="defaultSemiBold">app</ThemedText> to{" "}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          <ThemedText type="defaultSemiBold">app</ThemedText>.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
